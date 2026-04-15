@@ -1,0 +1,13 @@
+Krippendorff's alpha between coder 1 and coder 2
+-------------------------------------------------
+ Krippendorff's alpha
+
+ Subjects = 6949 
+   Raters = 2 
+    alpha = 0.922 
+
+Confusion table (coder 1 rows, coder 2 columns):
+   
+      0   1
+  0 143   1
+  1   5  49

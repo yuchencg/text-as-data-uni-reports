@@ -1,0 +1,17 @@
+# A tibble: 2 × 3
+  key_uni count party_rate
+    <dbl> <int>      <dbl>
+1       0  4888      0.234
+2       1  2061      0.245
+
+	Welch Two Sample t-test
+
+data:  predict.party by key_uni
+t = -0.97055, df = 3818.4, p-value = 0.3318
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.03294335  0.01112716
+sample estimates:
+mean in group 0 mean in group 1 
+      0.2336334       0.2445415 
+

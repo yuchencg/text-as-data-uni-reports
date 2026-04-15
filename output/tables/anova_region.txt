@@ -1,0 +1,15 @@
+# A tibble: 7 × 3
+  region       count party_1_rate
+  <chr>        <int>        <dbl>
+1 Northern      1408        0.278
+2 Eastern       1646        0.241
+3 Southwestern   735        0.239
+4 Northwestern   603        0.227
+5 Southern       600        0.223
+6 Northeastern   844        0.218
+7 Central       1113        0.204
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+region         6    4.1  0.6883   3.816 0.000842 ***
+Residuals   6942 1252.0  0.1803                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

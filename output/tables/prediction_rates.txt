@@ -1,0 +1,9 @@
+Predicted party-ideology rate (whole corpus):
+
+        0         1 
+0.7631314 0.2368686 
+
+Hand-coded party rate (labeled subset only):
+
+        0         1 
+0.7474747 0.2525253 

@@ -1,0 +1,17 @@
+# A tibble: 2 × 3
+   tier count party_rate
+  <dbl> <int>      <dbl>
+1     1  3455      0.241
+2     2  3494      0.232
+
+	Welch Two Sample t-test
+
+data:  predict.party by tier
+t = 0.88126, df = 6942.9, p-value = 0.3782
+alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
+95 percent confidence interval:
+ -0.01100879  0.02899057
+sample estimates:
+mean in group 1 mean in group 2 
+      0.2413893       0.2323984 
+

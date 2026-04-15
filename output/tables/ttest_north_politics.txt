@@ -1,0 +1,17 @@
+# A tibble: 2 × 3
+  north_politics_core Count party_rate
+                <dbl> <int>      <dbl>
+1                   0  3777      0.230
+2                   1  3172      0.245
+
+	Welch Two Sample t-test
+
+data:  predict.party by north_politics_core
+t = -1.5069, df = 6687.2, p-value = 0.1319
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.035570436  0.004652231
+sample estimates:
+mean in group 0 mean in group 1 
+      0.2298120       0.2452711 
+
